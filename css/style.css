@@ -1,33 +1,93 @@
-p{
-    font-size: 1em;
+* {
+    font-family: "Comic Sans MS";
+    background-color: #f8f8f8;
+    padding: 0 10px;
 }
-.heading{
-    color: darkblue;
-    background-color: #ccc;
-    border: 4px solid black;
-    text-align: center;
+.menu a{
+    font-family: Verdana;
+    text-decoration: none;
+    color: darkviolet;
 }
-.description{
-    color: blue;
-    background: url("../img/tv1.jpg") no-repeat center;
-}
-img[alt="BBK"]{
-    border: 4px solid green;
+.menu a:hover{
+    color: crimson;
 }
 .list{
-    list-style-type: none;
+    list-style: none;
 }
-.list > li{
-    width: 400px;
-    height: 25px;
-    border: 1px solid #000;
-}
-.list + p{
-    color: darkgreen;
-}
-li{
-    width: 30px;
-}
-.link{
+.link {
     text-decoration: none;
+    color: darkcyan;
+}
+.link:hover{
+    color: red;
+}
+.heading{
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #eaeaea;
+}
+.short-description{
+    color: #707070;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+}
+.description{
+    color: #484343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+.characteristics{
+    color: #373737;
+    font-size: 18px;
+    line-height: 26px;
+}
+.characteristics li{
+    list-style-image: url("../img/icon.png");
+    margin-left: 15px;
+}
+footer{
+    text-align: center;
+    color: #5f5f5f;
+    font-size: 12px;
+}
+form{
+    color: #000;
+    border: 2px solid #888;
+    width: 390px;
+    padding: 30px;
+    border-radius: 10px;
+}
+input[type="text"]{
+    font-size: 18px;
+    color: darkmagenta;
+    margin-left: 50px;
+    text-align: center;
+    width: 230px;
+    height: 20px;
+    border: 2px solid #888;
+    border-radius: 8px;
+}
+
+form textarea{
+    margin-top: 5px;
+    border: 2px solid #888;
+    border-radius: 10px;
+    width: 365px;
+}
+input[type="submit"]{
+
+    margin-top: 5px;
+    border: 2px solid #888;
+    border-radius: 5px;
+    width: 120px;
+    height: 25px;
+}
+.catalog{
+    text-align: center;
+    width: 300px;
+    padding-bottom: 50px;
 }
