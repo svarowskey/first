@@ -4,3 +4,9 @@ p{
 .heading{
     color: red;
 }
+.short_description{
+    color: blue;
+}
+img[alt="BBK"]{
+    border: 4px solid green;
+}
