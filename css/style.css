@@ -3,12 +3,26 @@
     background-color: #f8f8f8;
     padding: 0 10px;
 }
-.menu a{
+.menu li{
+    width: 150px;
+    height: 30px;
+    text-align: center;
+    border: 1px solid #000;
+}
+.menu li:first-child{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.menu li:last-child{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.menu li a{
     font-family: Verdana;
     text-decoration: none;
     color: darkviolet;
 }
-.menu a:hover{
+.menu li a:hover{
     color: crimson;
 }
 .list{
@@ -90,4 +104,13 @@ input[type="submit"]{
     text-align: center;
     width: 300px;
     padding-bottom: 50px;
+}
+.test li{
+    list-style-type: none;
+}
+.test li:nth-child(3):after{
+    content: " new";
+    color: blueviolet;
+    text-transform: uppercase;
+
 }
