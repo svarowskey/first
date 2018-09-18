@@ -17,6 +17,17 @@ img[alt="BBK"]{
 .list{
     list-style-type: none;
 }
+.list > li{
+    width: 400px;
+    height: 25px;
+    border: 1px solid #000;
+}
+.list + p{
+    color: darkgreen;
+}
+li{
+    width: 30px;
+}
 .link{
     text-decoration: none;
 }
