@@ -1,12 +1,22 @@
 p{
-    font-size: 14px;
+    font-size: 1em;
 }
 .heading{
-    color: red;
+    color: darkblue;
+    background-color: #ccc;
+    border: 4px solid black;
+    text-align: center;
 }
-.short_description{
+.description{
     color: blue;
+    background: url("../img/tv1.jpg") no-repeat center;
 }
 img[alt="BBK"]{
     border: 4px solid green;
+}
+.list{
+    list-style-type: none;
+}
+.link{
+    text-decoration: none;
 }
