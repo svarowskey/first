@@ -1,6 +1,8 @@
-* {
-    font-family: "Comic Sans MS";
+*{
     background-color: #f8f8f8;
+}
+body {
+    font-family: "Comic Sans MS";
     padding: 0 10px;
 }
 .menu li{
@@ -120,11 +122,18 @@ input[type="submit"]{
     font-size: 30px;
     color: red;
 }
-table{
-    border: 1px solid #000;
+.my_table{
+    border: 1px solid #000000;
+    height: 300px;
     width: 400px;
-    height: 200px;
+    border-collapse: collapse;
 }
-td{
-    border: 1px solid #000;
+.my_table td {
+    border: 1px solid black;
+    padding-left: 10px;
+    vertical-align: middle;
+    text-align: center;
+}
+.five{
+    background-color: green;
 }
