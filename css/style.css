@@ -146,20 +146,13 @@ input[type="submit"]{
 }
 
 /*Стилизация теста*/
-.logo{
-    width: 100px;
-    height: 100px;
+.product{
+    width: 200px;
+    height: 150px;
+    outline: 1px solid black;
+    float: left;
+}
+.footer{
     background-color: #ccc;
-    margin-top: 50px;
-    margin-left: 100px;
-    border: 4px solid #000;
-}
-.menu_test li {
-    padding-top: 20px;
-    padding-bottom: 20px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-.logo:hover{
-    border: none;
+    overflow: hidden;
 }
