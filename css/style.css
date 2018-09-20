@@ -84,7 +84,7 @@ body {
 }
 
 /*Стилизация футера*/
-footer{
+.footer{
     text-align: center;
     color: #5f5f5f;
     font-size: 12px;
@@ -145,13 +145,21 @@ input[type="submit"]{
     padding-left: 50px;
 }
 
-/*Стилизация таблицы на главной странице*/
-.main-table{
-    border-collapse: collapse;
-}
-.main-table td{
+/*Стилизация теста*/
+.logo{
     width: 100px;
-    height: 60px;
-    border: 1px solid #000000;
-    text-align: center;
+    height: 100px;
+    background-color: #ccc;
+    margin-top: 50px;
+    margin-left: 100px;
+    border: 4px solid #000;
+}
+.menu_test li {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.logo:hover{
+    border: none;
 }
