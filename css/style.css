@@ -1,32 +1,60 @@
+body{
+    overflow-y: scroll;
+}
 /*Стилизация тела сайта*/
-body {
+.container {
     font-family: "Comic Sans MS";
-    padding: 0 10px;
-    background-color: #f8f8f8;
+    width: 1200px;
+    margin: 0 auto;
+    /*  background-color: #f8f8f8;*/
 }
 
-/*Стилизация меню*/
+/*Стилизация шапки сайта*/
+.header{
+    height: 220px;
+    position: relative;
+}
+.header hr{
+    clear: both;
+}
+.logo{
+    position: relative;
+    float: left;
+}
+.logo img{
+    width: 600px;
+}
+.title{
+    float: right;
+}
+.header .menu .active{
+    background-color: #ffb3ba;
+    color: red;
+ }
+.menu{
+    margin: auto 0;
+    padding: 0;
+    float: right;
+    position: relative;
+    top: 70px;
+    background-color: #ff406e;
+    overflow: hidden;
+}
 .menu li{
-    width: 150px;
-    height: 30px;
-    text-align: center;
-    border: 1px solid #000;
-}
-.menu li:first-child{
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-}
-.menu li:last-child{
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+    float: left;
 }
 .menu li a{
+    padding: 5px 20px 0 20px;
+    outline: 1px solid #888888;
+    height: 30px;
     font-family: Verdana;
     text-decoration: none;
-    color: darkviolet;
+    color: antiquewhite;
+    display: block;
 }
 .menu li a:hover{
     color: crimson;
+    background-color: #ffb3ba;
 }
 
 /*Стилизация ссылок*/
@@ -82,12 +110,68 @@ body {
     font-size: 50px;
     font-family: Gabriola;
 }
+.img-desc{
+    float: left;
+}
+.buy{
+    float: left;
+    padding-left: 20px;
+    margin-top: 17px;
+    margin-bottom: 20px;
+}
+.buy input{
+    width: 120px;
+    height: 30px;
+    font-family: Verdana;
+    text-decoration: none;
+    color: antiquewhite;
+    background-color: #ff406e;
+}
+.buy input:hover{
+    color: crimson;
+    background-color: #ffb3ba;
+    cursor: pointer;
+}
+.buy input:active{
+    background-color: indianred;
+    color: #fff;
+}
+.short-text{
+    float: left;
+    width: 65%;
+    margin-left: 20px;
+}
+.long-text{
+    clear: both;
+    padding-top: 10px;
+}
+
+/*Стилизация таблицы характеристик товара каталога*/
+.table-characteristics{
+    margin-left: 50px;
+}
+.first-row{
+    height: 50px;
+}
+.table-characteristics td:nth-child(2n){
+    padding-left: 50px;
+}
 
 /*Стилизация футера*/
 .footer{
     text-align: center;
-    color: #5f5f5f;
+    color: #373737;
     font-size: 12px;
+    height: 40px;
+    background-color: #dddddd;
+    display: block;
+    clear: both;
+}
+.rights-text{
+    float: right;
+    position: relative;
+    top: 5px;
+    right: 30px;
 }
 
 /*Стилизация формы обратной связи*/
@@ -117,7 +201,10 @@ form textarea{
     margin-top: 5px;
     border: 2px solid #888;
     border-radius: 10px;
-    width: 365px;
+    width: 360px;
+    font-size: 18px;
+    text-transform: capitalize;
+    padding-left: 5px;
 }
 input[type="submit"]{
     margin-top: 5px;
@@ -130,29 +217,9 @@ input[type="submit"]{
 /*Стилизация страницы Каталога*/
 .catalog{
     text-align: center;
-    width: 300px;
     padding-bottom: 50px;
 }
-
-/*Стилизация таблицы характеристик товара каталога*/
-.table-characteristics{
-    margin-left: 50px;
-}
-.first-row{
-    height: 50px;
-}
-.table-characteristics td:nth-child(2n){
-    padding-left: 50px;
-}
-
-/*Стилизация теста*/
-.product{
-    width: 200px;
-    height: 150px;
-    outline: 1px solid black;
-    float: left;
-}
-.footer{
-    background-color: #ccc;
-    overflow: hidden;
+.catalog-item{
+    display: inline-block;
+    padding: 0 20px;
 }
