@@ -114,12 +114,11 @@ body{
     float: left;
 }
 .buy{
-    float: left;
-    padding-left: 20px;
-    margin-top: 17px;
     margin-bottom: 20px;
 }
 .buy input{
+    margin-left: 30px;
+    margin-top: 20px;
     width: 120px;
     height: 30px;
     font-family: Verdana;
@@ -137,9 +136,9 @@ body{
     color: #fff;
 }
 .short-text{
-    float: left;
-    width: 65%;
+    overflow: hidden;
     margin-left: 20px;
+    padding-left: 20px;
 }
 .long-text{
     clear: both;
@@ -222,4 +221,10 @@ input[type="submit"]{
 .catalog-item{
     display: inline-block;
     padding: 0 20px;
+    overflow: hidden;
+}
+.catalog-item img:hover{
+    -webkit-transform: scale(1.3);
+    -moz-transform: scale(1.3);
+    -o-transform: scale(1.3);
 }
